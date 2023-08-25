@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 40px;
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>h2{
+    font-weight: 900;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content>h3{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.content>span{
+    font-size: 1.5rem;
+    background-color: rgb(218, 206, 206);
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(179, 233, 243);
+    font-weight: 700;
+    font-size: 1rem;
+}
